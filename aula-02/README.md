@@ -18,7 +18,7 @@ A princípio, confiaremos no compilador. Isso só irá mudar quando trabalharmos
 1. **Alocamos** memória do computador;
 2. Especificamos o **datatype** da variável;
 3. Damos um nome ou **identificador** à variável;
-4. Damos um valor à variável ou ****inicializamos**** ela.
+4. Damos um valor à variável ou **inicializamos** ela.
 
 # Datatypes
 
