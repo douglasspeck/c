@@ -1,4 +1,4 @@
-# Aula 01
+# Aula 01: Símbolos e I/O
 
 Para início de conversa: **Algoritmo** é uma sequência de instruções para resolver um problema. A partir de um algoritmo, você escreve um **Código**, que deve então ser compilado para gerar um **Programa**.
 
