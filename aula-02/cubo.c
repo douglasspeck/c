@@ -1,3 +1,12 @@
+/*
+
+Programa que calcula o volume e a área de um cubo dado sua aresta
+
+Atividade da Aula 02 do Curso de C da 3E
+Data: 2023-05-25
+
+*/
+
 const double PI = 3.1415926; // É possível declarar em escopo global
 
 #include <stdio.h>

@@ -2,7 +2,7 @@
 
 Programa que escreve "Olá, Mundo!"
 
-Aula 01 do Curso de C da 3E
+Atividade da Aula 01 do Curso de C da 3E
 Data: 2023-05-11
 
 */

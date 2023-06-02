@@ -9,6 +9,7 @@ Data: 2023-06-02
 
 #include <stdio.h>
 
+// Função que determina e imprime a paridade de um inteiro n
 void escreveParidade(int n) {
 	
 	if (n % 2) {
@@ -21,10 +22,12 @@ void escreveParidade(int n) {
 
 int main() {
 
+    // Recebe um número via input padrão
 	int numero = 0;
 	printf("Insira um numero: ");
 	scanf("%d", &numero);
 
+    // Aplica a função ao número selecionado
 	escreveParidade(numero);
 	
 	return 0;
