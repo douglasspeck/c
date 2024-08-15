@@ -2,8 +2,6 @@
 
 Este repositório contém as notas de aula do **Curso de C** ministrado por *Lucas Oliver*, em nome da [Empresa Junior 3E](https://3eunicamp.com/).
 
-As aulas ocorrerão das 13:00 às 14:00 às quintas na sala FE13 (FEEC, Bloco F), com exceção da aula 4, que ocorrerá na sexta.
-
 ## Ementa
 O curso é, essencialmente, uma introdução à linguagem e conta com uma ementa básica, que apresenta os fundamentos necessários para programar em **C**.
 

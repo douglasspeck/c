@@ -22,7 +22,7 @@ A princípio, confiaremos no compilador. Isso só irá mudar quando trabalharmos
 
 ## Datatypes
 
-Para o computador, é necessário diferenciar os tipos de variáveis, que são influenciadas por seus **modificadores** que mudam seu tamanho e o alcance dos valores que elas pode representar.
+Para o computador, é necessário diferenciar os tipos de variáveis, que são influenciadas por seus **modificadores**, que mudam seu tamanho e o alcance dos valores que elas pode representar.
 
 ### Números inteiros (`int`)
 
@@ -38,16 +38,27 @@ Seu armazenamento máximo é de 32 bits, isto é, pode armazenar até 32 dígito
 
 ### Números racionais (`float`)
 
-Esse **datatype** funciona como um número em notação científica, então, quanto maior o número, menor a precisão.
+Esse *datatype* funciona como um número em notação científica, então, quanto maior o número, menor a precisão.
+
+São padronizados pela convenção **IEEE 754**.
 
 Podem ser utilizados para representar números muito grandes, muito pequenos ou constantes reais como π.
 
+- `float` :
+    - 1 bit de sinal;
+    - 8 bits de expoente;
+    - 23 bits de mantissa;
+    - Total de 4 bytes (32 bits);
 - `double` : tem um alcance e uma precisão drasticamente maiores do que as de um float comum.
+    - 1 bit de sinal;
+    - 11 bits de expoente;
+    - 52 bits de mantissa;
+    - Total de 8 bytes (64 bits);
 - `long double` : tem um alcance igual ou maior que double, porém varia de acordo com o dispositivo.
 
 #### Operações entre números
 
-- **Adição** `a + b`;
+- **Adição:** `a + b`;
 - **Subtração:** `a - b`;
 - **Multiplicação:** `a * b`;
 - **Divisão:** `a / b`;
@@ -108,24 +119,3 @@ int main() {
 
 }
 ```
-
-### Especificadores de Formato
-
-| Especificador | Utilização |
-| --- | --- |
-| %c | um único caractere |
-| %s | uma string |
-| %hi | short (com sinal) |
-| %hu | short (sem sinal) |
-| %Lf | long double |
-| %n | sem impressão |
-| %d | um inteiro decimal (assume a base 10) |
-| %i | um decimal inteiro (detecta a base automaticamente) |
-| %o | um inteiro octal (base 8) |
-| %x | um inteiro hexadecimal (base 16) |
-| %p | um endereço (ou pointer) |
-| %f | um número de ponto flutuante para floats |
-| %u | int decimal sem sinal |
-| %e | um número de ponto flutuante em notação científica |
-| %E | um número de ponto flutuante em notação científica |
-| %% | o símbolo % |
